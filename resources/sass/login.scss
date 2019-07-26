@@ -1,0 +1,13 @@
+@import "common";
+
+.login-centered-form .panel {
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px;
+  color: #4e5d6c;
+}
+
+.login-centered-form {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}

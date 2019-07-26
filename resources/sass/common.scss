@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Font Variables
+$raleway: 'Raleway', sans-serif;
+
+html, body {
+  font-family: $raleway;
+  background: #2A3F54;
+  font-weight: 100;
+  font-size: 18x;
+  height: 100%;
+}

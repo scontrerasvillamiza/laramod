@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);html, body {
+  font-family: "Raleway", sans-serif;
+  background: #2A3F54;
+  font-weight: 100;
+  font-size: 18x;
+  height: 100%;
+}
+
+.login-centered-form .panel {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px;
+          box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px;
+  color: #4e5d6c;
+}
+
+.login-centered-form {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
